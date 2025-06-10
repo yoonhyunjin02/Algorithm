@@ -11,7 +11,7 @@ public class Main {
 
         int[] LAN = new int[K];
         long max = 0;
-        
+
         for (int i = 0; i < K; i++) {
             LAN[i] = Integer.parseInt(br.readLine());
             if (LAN[i] > max) {
